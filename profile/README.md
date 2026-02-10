@@ -2,12 +2,11 @@
   <img src="https://img.shields.io/badge/23blocks-Open%20Source-blue?style=for-the-badge" alt="23blocks Open Source">
 </p>
 
-<h2 align="center">Backend as a Service + AI Agent Infrastructure</h2>
+<h3 align="center">Backend as a Service</h3>
+<p align="center">Ship apps faster with 15+ plug-and-play backend blocks.</p>
 
-<p align="center">
-  Ship apps faster with plug-and-play backend blocks.<br/>
-  Build autonomous AI agents that talk to users across every platform.
-</p>
+<h3 align="center">AI Agent Infrastructure</h3>
+<p align="center">Build autonomous AI agents that talk to users across every platform.</p>
 
 <p align="center">
   <a href="https://23blocks.com">23blocks.com</a> &middot;
