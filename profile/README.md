@@ -105,35 +105,6 @@ Official plugins for Claude Code agents. Extend AI Maestro with specialized capa
 
 ---
 
-### How the AI Stack Fits Together
-
-```
-     Users
-      |
-      v
-  Discord · Slack · Email · WhatsApp
-      |
-      v
- ┌────────────────────────────────────┐
- │     AI Maestro Gateways           │  Content security, agent routing
- └──────────────┬─────────────────────┘
-                |
-                v
- ┌────────────────────────────────────┐
- │          AI Maestro                │  Orchestration, skills, memory
- │  Claude Code · Aider · Cursor     │
- └──────────────┬─────────────────────┘
-                |
-                v
- ┌────────────────────────────────────┐
- │        23blocks BaaS               │  Auth, users, files, CRM, billing
- └────────────────────────────────────┘
-```
-
-**23blocks BaaS** is the backend. **AI Maestro** orchestrates agents on top of it. **Gateways** connect those agents to users on any messaging platform. Each layer works independently — use one, two, or all three.
-
----
-
 ## Contributing
 
 We welcome contributions across all projects. Each repo has its own `CONTRIBUTING.md`. Join the conversation in [AI Maestro Discussions](https://github.com/23blocks-OS/ai-maestro/discussions).
