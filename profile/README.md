@@ -2,17 +2,11 @@
   <img src="https://img.shields.io/badge/23blocks-Open%20Source-blue?style=for-the-badge" alt="23blocks Open Source">
 </p>
 
-<h3 align="center">Backend as a Service</h3>
+<h3 align="center"><a href="https://23blocks.com">Backend as a Service</a></h3>
 <p align="center">Ship apps faster with 15+ plug-and-play backend blocks.</p>
 
-<h3 align="center">AI Agent Infrastructure</h3>
+<h3 align="center"><a href="https://ai-maestro.23blocks.com">AI Agent Infrastructure</a></h3>
 <p align="center">Build autonomous AI agents that talk to users across every platform.</p>
-
-<p align="center">
-  <a href="https://23blocks.com">23blocks.com</a> &middot;
-  <a href="https://ai-maestro.23blocks.com">AI Maestro Docs</a> &middot;
-  <a href="https://github.com/23blocks-OS/ai-maestro/discussions">Community</a>
-</p>
 
 ---
 
