@@ -1,0 +1,83 @@
+<svg width="894" height="280" viewBox="0 0 894 280" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-light" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff"/>
+      <stop offset="100%" style="stop-color:#f6f8fa"/>
+    </linearGradient>
+    <linearGradient id="accent-blue-l" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#2563eb"/>
+      <stop offset="100%" style="stop-color:#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="accent-red-l" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#dc2626"/>
+      <stop offset="100%" style="stop-color:#ef4444"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="894" height="280" fill="url(#bg-light)" rx="12"/>
+  <rect width="894" height="280" fill="none" stroke="#d0d7de" stroke-width="1" rx="12"/>
+
+  <!-- Subtle grid pattern -->
+  <g opacity="0.05" stroke="#1f2328" stroke-width="1">
+    <line x1="0" y1="40" x2="894" y2="40"/><line x1="0" y1="80" x2="894" y2="80"/>
+    <line x1="0" y1="120" x2="894" y2="120"/><line x1="0" y1="160" x2="894" y2="160"/>
+    <line x1="0" y1="200" x2="894" y2="200"/><line x1="0" y1="240" x2="894" y2="240"/>
+    <line x1="100" y1="0" x2="100" y2="280"/><line x1="200" y1="0" x2="200" y2="280"/>
+    <line x1="300" y1="0" x2="300" y2="280"/><line x1="400" y1="0" x2="400" y2="280"/>
+    <line x1="500" y1="0" x2="500" y2="280"/><line x1="600" y1="0" x2="600" y2="280"/>
+    <line x1="700" y1="0" x2="700" y2="280"/><line x1="800" y1="0" x2="800" y2="280"/>
+  </g>
+
+  <!-- Constellation decoration (right side) -->
+  <g transform="translate(680, 40)" opacity="0.4">
+    <line x1="20" y1="30" x2="80" y2="15" stroke="#2563eb" stroke-width="2" opacity="0.6"/>
+    <line x1="80" y1="15" x2="140" y2="40" stroke="#2563eb" stroke-width="2" opacity="0.6"/>
+    <line x1="20" y1="30" x2="50" y2="80" stroke="#7c3aed" stroke-width="1.5" opacity="0.5"/>
+    <line x1="140" y1="40" x2="110" y2="90" stroke="#7c3aed" stroke-width="1.5" opacity="0.5"/>
+    <line x1="50" y1="80" x2="110" y2="90" stroke="#7c3aed" stroke-width="1.5" opacity="0.5"/>
+    <line x1="80" y1="15" x2="120" y2="130" stroke="#2563eb" stroke-width="1" opacity="0.3"/>
+    <line x1="50" y1="80" x2="160" y2="120" stroke="#7c3aed" stroke-width="1" opacity="0.3"/>
+    <circle cx="20" cy="30" r="6" fill="#2563eb" opacity="0.7"/><circle cx="20" cy="30" r="10" fill="none" stroke="#2563eb" stroke-width="1" opacity="0.3"/>
+    <circle cx="80" cy="15" r="7" fill="#2563eb" opacity="0.8"/><circle cx="80" cy="15" r="12" fill="none" stroke="#2563eb" stroke-width="1" opacity="0.3"/>
+    <circle cx="140" cy="40" r="6" fill="#2563eb" opacity="0.7"/><circle cx="140" cy="40" r="10" fill="none" stroke="#2563eb" stroke-width="1" opacity="0.3"/>
+    <circle cx="50" cy="80" r="5" fill="#7c3aed" opacity="0.6"/><circle cx="50" cy="80" r="9" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0.3"/>
+    <circle cx="110" cy="90" r="5" fill="#7c3aed" opacity="0.6"/><circle cx="110" cy="90" r="9" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0.3"/>
+    <circle cx="120" cy="130" r="4" fill="#2563eb" opacity="0.4"/>
+    <circle cx="160" cy="120" r="3" fill="#7c3aed" opacity="0.3"/>
+  </g>
+
+  <!-- Decorative blocks (left side) -->
+  <g transform="translate(30, 60)" opacity="0.12">
+    <rect x="0" y="0" width="16" height="16" rx="3" fill="#dc2626"/>
+    <rect x="22" y="0" width="16" height="16" rx="3" fill="#dc2626"/>
+    <rect x="0" y="22" width="16" height="16" rx="3" fill="#dc2626"/>
+    <rect x="22" y="22" width="16" height="16" rx="3" fill="#ef4444"/>
+    <rect x="44" y="22" width="16" height="16" rx="3" fill="#dc2626"/>
+    <rect x="0" y="44" width="16" height="16" rx="3" fill="#ef4444"/>
+    <rect x="22" y="44" width="16" height="16" rx="3" fill="#dc2626"/>
+  </g>
+
+  <!-- 23blocks text -->
+  <text x="447" y="90" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="52" font-weight="800" fill="#1f2328" letter-spacing="-1">23blocks</text>
+
+  <!-- Open Source badge -->
+  <rect x="377" y="105" width="140" height="26" rx="13" fill="none" stroke="#d0d7de" stroke-width="1.5"/>
+  <text x="447" y="123" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#656d76" letter-spacing="2">OPEN SOURCE</text>
+
+  <!-- Divider -->
+  <line x1="297" y1="152" x2="597" y2="152" stroke="url(#accent-red-l)" stroke-width="2" opacity="0.3"/>
+
+  <!-- Two pillars -->
+  <text x="280" y="185" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#dc2626">Backend as a Service</text>
+  <text x="280" y="210" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#656d76">15+ production-ready API blocks</text>
+
+  <text x="610" y="185" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="18" font-weight="700" fill="#2563eb">AI Agent Infrastructure</text>
+  <text x="610" y="210" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#656d76">Orchestrate, connect, deploy AI agents</text>
+
+  <!-- Dot separator between pillars -->
+  <circle cx="447" cy="195" r="3" fill="#d0d7de"/>
+
+  <!-- Bottom tagline -->
+  <text x="447" y="255" text-anchor="middle" font-family="system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="13" fill="#656d76">Ship in days, not months. Boulder, CO.</text>
+</svg>
