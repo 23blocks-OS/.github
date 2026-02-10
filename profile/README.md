@@ -2,90 +2,144 @@
   <img src="https://img.shields.io/badge/23blocks-Open%20Source-blue?style=for-the-badge" alt="23blocks Open Source">
 </p>
 
-<h2 align="center">Building the infrastructure for autonomous AI agents</h2>
+<h2 align="center">Backend as a Service + AI Agent Infrastructure</h2>
 
 <p align="center">
-  <a href="https://ai-maestro.23blocks.com">AI Maestro Docs</a> &middot;
+  Ship apps faster with plug-and-play backend blocks.<br/>
+  Build autonomous AI agents that talk to users across every platform.
+</p>
+
+<p align="center">
   <a href="https://23blocks.com">23blocks.com</a> &middot;
+  <a href="https://ai-maestro.23blocks.com">AI Maestro Docs</a> &middot;
   <a href="https://github.com/23blocks-OS/ai-maestro/discussions">Community</a>
 </p>
 
 ---
 
-## AI Maestro — AI Agent Orchestration Platform
+## What We Build
 
-**AI Maestro** is an open-source platform for orchestrating AI coding agents. Give Claude Code, Aider, and Cursor agents superpowers: persistent memory, code graph queries, agent-to-agent messaging, and skills systems. Manage multiple agents across multiple machines from one dashboard.
+**23blocks** provides two things developers need: a **backend you don't have to build** and **AI agent infrastructure you don't have to figure out**.
+
+### Backend as a Service
+
+15+ production-ready API blocks — authentication, users, files, CRM, multi-tenant, payments — so you can ship apps in days instead of months. Framework-agnostic REST APIs for React, Angular, Next.js, and more.
+
+### AI Agent Platform
+
+Open-source tools for orchestrating, connecting, and deploying AI agents. From agent memory and skills to multi-platform messaging with built-in security.
+
+---
+
+## Featured Projects
 
 <table>
 <tr>
 <td width="50%">
 
-### Core Platform
+### AI Maestro
 
 <a href="https://github.com/23blocks-OS/ai-maestro">
-<img src="https://img.shields.io/github/stars/23blocks-OS/ai-maestro?style=flat&label=ai-maestro&color=blue" alt="ai-maestro stars">
+<img src="https://img.shields.io/github/stars/23blocks-OS/ai-maestro?style=flat&label=stars&color=blue" alt="stars">
 </a>
 
-The orchestration engine. Skills system, memory search, code graph queries, agent-to-agent messaging, multi-machine support. Next.js dashboard + CLI.
+AI agent orchestration platform. Give Claude Code, Aider, and Cursor agents superpowers: persistent memory, code graph queries, agent-to-agent messaging, skills system. Multi-machine dashboard.
 
 **[Get Started →](https://github.com/23blocks-OS/ai-maestro)**
 
 </td>
 <td width="50%">
 
-### Messaging Gateways
+### AI Maestro Gateways
 
 <a href="https://github.com/23blocks-OS/aimaestro-gateways">
-<img src="https://img.shields.io/github/stars/23blocks-OS/aimaestro-gateways?style=flat&label=aimaestro-gateways&color=blue" alt="aimaestro-gateways stars">
+<img src="https://img.shields.io/github/stars/23blocks-OS/aimaestro-gateways?style=flat&label=stars&color=blue" alt="stars">
 </a>
 
-Connect AI agents to **Discord, Slack, Email & WhatsApp**. Built-in prompt injection defense (34 patterns), trust-based content security, timing-safe auth.
+Connect AI agents to **Discord, Slack, Email & WhatsApp**. Built-in prompt injection defense (34 patterns), trust-based content security, timing-safe auth. TypeScript + Docker.
 
 **[Explore Gateways →](https://github.com/23blocks-OS/aimaestro-gateways)**
 
 </td>
 </tr>
+<tr>
+<td width="50%">
+
+### Frontend SDK
+
+<a href="https://github.com/23blocks-OS/frontend-sdk">
+<img src="https://img.shields.io/github/stars/23blocks-OS/frontend-sdk?style=flat&label=stars&color=blue" alt="stars">
+</a>
+
+TypeScript SDK for the 23blocks BaaS. React hooks + Angular services. Auth, users, files, CRM, multi-tenant — all wired up and ready to go. JSON:API compliant.
+
+**[View SDK →](https://github.com/23blocks-OS/frontend-sdk)**
+
+</td>
+<td width="50%">
+
+### AI Maestro Plugins
+
+<a href="https://github.com/23blocks-OS/ai-maestro-plugins">
+<img src="https://img.shields.io/github/stars/23blocks-OS/ai-maestro-plugins?style=flat&label=stars&color=blue" alt="stars">
+</a>
+
+Official plugins for Claude Code agents. Extend AI Maestro with specialized capabilities — code graph queries, documentation search, memory systems.
+
+**[Browse Plugins →](https://github.com/23blocks-OS/ai-maestro-plugins)**
+
+</td>
+</tr>
 </table>
 
-### How They Work Together
+### All Repositories
 
-```
-  Discord    Slack    Email    WhatsApp        You (CLI/Dashboard)
-     |         |        |         |                    |
-     v         v        v         v                    v
-  ┌─────────────────────────────────────┐    ┌──────────────────┐
-  │      AI Maestro Gateways           │    │   AI Maestro     │
-  │  Content Security · Agent Routing  │───>│   Dashboard      │
-  └────────────────┬────────────────────┘    └────────┬─────────┘
-                   │                                  │
-                   v                                  v
-          ┌──────────────────────────────────────────────────┐
-          │              AI Maestro Agent Network             │
-          │                                                  │
-          │  Claude Code · Aider · Cursor · Custom Agents    │
-          │  Memory · Skills · Code Graph · Messaging        │
-          └──────────────────────────────────────────────────┘
-```
-
-**AI Maestro** manages the agents. **Gateways** connect them to the world. Users message through any platform, the gateway secures and routes it to the right agent, and the agent responds back through the same channel.
-
-### Ecosystem
-
-| Repository | Description |
-|-----------|-------------|
-| **[ai-maestro](https://github.com/23blocks-OS/ai-maestro)** | Core platform — agent orchestration, skills, memory, dashboard |
-| **[aimaestro-gateways](https://github.com/23blocks-OS/aimaestro-gateways)** | Discord, Slack, Email & WhatsApp gateways with content security |
+| Project | What It Does |
+|---------|-------------|
+| **[ai-maestro](https://github.com/23blocks-OS/ai-maestro)** | AI agent orchestration — skills, memory, dashboard, multi-machine |
+| **[aimaestro-gateways](https://github.com/23blocks-OS/aimaestro-gateways)** | Messaging gateways — Discord, Slack, Email, WhatsApp + content security |
 | **[ai-maestro-plugins](https://github.com/23blocks-OS/ai-maestro-plugins)** | Official plugins for Claude Code agents |
-| **[frontend-sdk](https://github.com/23blocks-OS/frontend-sdk)** | TypeScript SDK for 23blocks BaaS — React hooks + Angular services |
-
-## Contributing
-
-We welcome contributions across all repos. Each project has its own `CONTRIBUTING.md` with setup instructions. Start with the [AI Maestro discussions](https://github.com/23blocks-OS/ai-maestro/discussions) to connect with the community.
+| **[frontend-sdk](https://github.com/23blocks-OS/frontend-sdk)** | TypeScript SDK for 23blocks BaaS (React + Angular) |
+| **[app-templates](https://github.com/23blocks-OS/app-templates)** | Starter templates — Next.js, Angular, React Native with 23blocks |
+| **[ai-agents-apps](https://github.com/23blocks-OS/ai-agents-apps)** | Interactive UIs for AI chatbots powered by 23blocks APIs |
 
 ---
 
+### How the AI Stack Fits Together
+
+```
+     Users
+      |
+      v
+  Discord · Slack · Email · WhatsApp
+      |
+      v
+ ┌────────────────────────────────────┐
+ │     AI Maestro Gateways           │  Content security, agent routing
+ └──────────────┬─────────────────────┘
+                |
+                v
+ ┌────────────────────────────────────┐
+ │          AI Maestro                │  Orchestration, skills, memory
+ │  Claude Code · Aider · Cursor     │
+ └──────────────┬─────────────────────┘
+                |
+                v
+ ┌────────────────────────────────────┐
+ │        23blocks BaaS               │  Auth, users, files, CRM, billing
+ └────────────────────────────────────┘
+```
+
+**23blocks BaaS** is the backend. **AI Maestro** orchestrates agents on top of it. **Gateways** connect those agents to users on any messaging platform. Each layer works independently — use one, two, or all three.
+
+---
+
+## Contributing
+
+We welcome contributions across all projects. Each repo has its own `CONTRIBUTING.md`. Join the conversation in [AI Maestro Discussions](https://github.com/23blocks-OS/ai-maestro/discussions).
+
 <p align="center">
-  <a href="https://ai-maestro.23blocks.com">Documentation</a> &middot;
   <a href="https://23blocks.com">Website</a> &middot;
+  <a href="https://ai-maestro.23blocks.com">AI Maestro Docs</a> &middot;
   Boulder, CO
 </p>
